@@ -54,9 +54,6 @@ footer {
   line-height: 2.5em;
 }
 
-.team-para {
-  /* margin: auto; */
-}
 .team-para p {
   text-align: justify;
 }
@@ -184,18 +181,12 @@ main img{
   }
  }
 
-@media (max-width: 400px){
-  main img {
-    /* max-height: 40vh;  */
-  }
-}
-
 @media (max-width: 575.9px){
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
  }
- 
+
  main img {
    max-height: 40vh;
  }

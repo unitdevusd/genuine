@@ -71,8 +71,16 @@ footer {
   transition: top 0.8s;
 }
 
+.pb-4{
+  -webkit-filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(18px 18px 7px rgba(0, 0, 0, 0.5));
+
+}
+
 .background-tint-1 {
   text-shadow: 0px 0px 50px #fff;
+  -webkit-text-stroke: 0.25px white; /* width and color */
+
 }
 
 .background-tint-2 {
